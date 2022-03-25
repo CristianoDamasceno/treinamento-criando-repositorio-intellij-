@@ -15,16 +15,20 @@ public class Calculadora {
         b = scan.nextInt();
 
         int somar = somar(a, b);
-        int subtrair = subtracao((a, b);
-        int multiplicar = multiplicacao((a, b);
-        int dividir = divisao((a, b);
+        int subtrair = subtracao(a, b);
+        int multiplicar = multiplicacao(a, b);
+        int dividir = divisao(a, b);
 
-        System.out.prinln("Soma: " + somar);
-        System.out.println("Subtracao: " + subtrair);
-        System.out.println("Multiplicacao: " + multiplicar);
-        System.out.println("Divisa: " + dividir);
+        System.out.println("Somar: " + somar);
+        System.out.println("Subtrair: " + subtrair);
+        System.out.println("Multiplicar: " + multiplicar);
+        System.out.println("Divir: " + dividir);
 
-        );
+
+    }
+
+    private static int somar(int a, int b) {
+        return 0;
     }
 
     public static int soma(int a, int b){
